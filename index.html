@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strukt Co. - Building Solutions to Last</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Poppins, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        /* Navigation */
+        .navbar {
+            background-color: #004f7a; /* Matches the blue in the logo */
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar img {
+            height: 50px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        /* Hero Section */
+        .hero {
+            background: url('your-image.jpg') center/cover no-repeat;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h1 {
+            color: #004f7a; /* Matches the dark blue in the logo */
+            font-size: 28px;
+            font-weight: bold;
+        }
+        /* Services Section */
+        .services {
+            padding: 40px;
+            text-align: center;
+        }
+        .service-box {
+            display: inline-block;
+            width: 45%;
+            margin: 10px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        /* Gallery */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        /* Contact Form */
+        .contact {
+            text-align: center;
+            padding: 40px;
+            background: #222;
+            color: white;
+        }
+        .contact form {
+            max-width: 400px;
+            margin: auto;
+        }
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact button {
+            padding: 10px 20px;
+            background: #ff9800;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <div class="navbar">
+        <img src="96EC937E-370B-42CD-A0C8-45B62E5A407E.png" alt="Strukt Co. Logo">  
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#services">Services</a>
+            <a href="#photos">Photos</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Building Solutions to Last</h1>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <h3>Building Solutions</h3>
+            <p>Innovative and lasting construction solutions.</p>
+        </div>
+        <div class="service-box">
+            <h3>Renovations</h3>
+            <p>Modernizing homes and businesses.</p>
+        </div>
+        <div class="service-box">
+            <h3>Repairs</h3>
+            <p>Reliable fixes for your property.</p>
+        </div>
+        <div class="service-box">
+            <h3>Disaster Recovery</h3>
+            <p>Restoring homes after unexpected damage.</p>
+        </div>
+    </div>
+
+    <!-- Photo Gallery -->
+    <div class="gallery" id="photos">
+        <h2 style="text-align: center;">Project Gallery</h2>
+        <img src="photo1.jpg" alt="Project 1">
+        <img src="photo2.jpg" alt="Project 2">
+        <img src="photo3.jpg" alt="Project 3">
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Your Phone">
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</body>
+</html>
